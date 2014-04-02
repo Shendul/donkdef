@@ -6,7 +6,7 @@ defaultproperties
 {
    WalkingPct=+0.4
    CrouchedPct=+0.4
-   BaseEyeHeight=38.0
+   BaseEyeHeight=39.0
    EyeHeight=38.0
    GroundSpeed=440.0
    AirSpeed=440.0
@@ -29,10 +29,10 @@ defaultproperties
 
    Begin Object Class=SkeletalMeshComponent Name=WPawnSkeletalMeshComponent
        //Your Mesh Properties
-      SkeletalMesh=SkeletalMesh'CH_LIAM_Cathode.Mesh.SK_CH_LIAM_Cathode'
-      AnimTreeTemplate=AnimTree'CH_AnimHuman_Tree.AT_CH_Human'
-      PhysicsAsset=PhysicsAsset'CH_AnimCorrupt.Mesh.SK_CH_Corrupt_Male_Physics'
-      AnimSets(0)=AnimSet'CH_AnimHuman.Anims.K_AnimHuman_BaseMale'
+      SkeletalMesh=SkeletalMesh'DDPackage.Human'
+      //AnimTreeTemplate=AnimTree'CH_AnimHuman_Tree.AT_CH_Human'
+      //PhysicsAsset=PhysicsAsset'CH_AnimCorrupt.Mesh.SK_CH_Corrupt_Male_Physics'
+      //AnimSets(0)=AnimSet'CH_AnimHuman.Anims.K_AnimHuman_BaseMale'
       Translation=(Z=8.0)
       Scale=1.075
       //General Mesh Properties
